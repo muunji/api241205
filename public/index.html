@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+    <!-- todo: 나는 /minji라는 주소로 form을 만들거고 post, textarea -->
+     <form action="/minji" method="post">
+      <textarea name="about-minji" placeholder="민지에 관해 작성해주세요"></textarea>
+      <input type="submit" value="제출">
+     </form>
+    <!-- todo: minseock 현재 숫자를 받을거야 post, input으로 받아야지 -->
+     <form action="/minseok" method="post">
+      <select name="minseokPower" title = "민석파워">
+        <option value="1">1레벨</option>
+        <option value="2">2레벨</option>
+        <option value="3">3레벨</option>
+      </select>
+      <input type="submit" value="제출">
+     </form>
+  </div>
+</body>
+</html>
